@@ -1,0 +1,33 @@
+2024-07-17 10:13:17,391;laptimes-scrap;ERROR;Error en el menú principal: name 'Service' is not defined
+Traceback (most recent call last):
+  File "Z:\Repositorios\laptimes-scrap\main.py", line 129, in main_menu
+    update_data()
+  File "Z:\Repositorios\laptimes-scrap\main.py", line 95, in update_data
+    driver = configurar_driver()
+             ^^^^^^^^^^^^^^^^^^^
+  File "Z:\Repositorios\laptimes-scrap\main.py", line 34, in configurar_driver
+    service = Service(ChromeDriverManager().install())
+              ^^^^^^^
+NameError: name 'Service' is not defined
+2024-07-17 10:13:28,698;laptimes-scrap;ERROR;Error en el menú principal: name 'Service' is not defined
+Traceback (most recent call last):
+  File "Z:\Repositorios\laptimes-scrap\main.py", line 129, in main_menu
+    update_data()
+  File "Z:\Repositorios\laptimes-scrap\main.py", line 95, in update_data
+    driver = configurar_driver()
+             ^^^^^^^^^^^^^^^^^^^
+  File "Z:\Repositorios\laptimes-scrap\main.py", line 34, in configurar_driver
+    service = Service(ChromeDriverManager().install())
+              ^^^^^^^
+NameError: name 'Service' is not defined
+2024-07-17 10:13:39,609;laptimes-scrap;ERROR;Error en el menú principal: name 'Service' is not defined
+Traceback (most recent call last):
+  File "Z:\Repositorios\laptimes-scrap\main.py", line 129, in main_menu
+    update_data()
+  File "Z:\Repositorios\laptimes-scrap\main.py", line 95, in update_data
+    driver = configurar_driver()
+             ^^^^^^^^^^^^^^^^^^^
+  File "Z:\Repositorios\laptimes-scrap\main.py", line 34, in configurar_driver
+    service = Service(ChromeDriverManager().install())
+              ^^^^^^^
+NameError: name 'Service' is not defined
